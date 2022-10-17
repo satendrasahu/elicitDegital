@@ -10,7 +10,7 @@ import {
   changeUser,
   saveUser,
   showSingleUser,
-} from "../../services/api/userApi";
+} from "../../services";
 import swal from "sweetalert";
 
 const ModifyUserPage = () => {

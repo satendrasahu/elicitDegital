@@ -26,6 +26,7 @@ const Input = (props) => {
         value={field?.value}
         name={field?.name}
         onChange={field?.modifyUser}
+        autoComplete ="off"
       />
     </Container>
   ));

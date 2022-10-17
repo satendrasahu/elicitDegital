@@ -1,5 +1,4 @@
-import { HomePage } from "../pages/home";
-import { ModifyUserPage, UserPage } from "../pages/user";
+import { ModifyUserPage, UserPage,HomePage } from "../pages";
 
 const routes = {
   home: {

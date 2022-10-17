@@ -3,7 +3,7 @@ import { Button, Text } from "../../components";
 import { buttonType, color } from "../../utils";
 import { MainContainer, Container } from "./homeStyled";
 import { useNavigate } from "react-router-dom";
-import { routes } from "../../navigator/routes";
+import { routes } from "../../navigator";
 
 const HomePage = () => {
   const navigate = useNavigate();

@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { routes } from "./navigator/routes";
+import { routes } from "./navigator";
 function App() {
   const modifyUserRoutes = [...routes?.modifyUser?.path];
   return (

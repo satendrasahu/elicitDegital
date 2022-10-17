@@ -1,2 +1,2 @@
-import { showUser } from "./userApi";
-export { showUser };
+import { showUser, removeUser,deleteAllUser, saveUser, changeUser,showSingleUser } from "./userApi";
+export { showUser, removeUser,deleteAllUser, saveUser, changeUser,showSingleUser };
